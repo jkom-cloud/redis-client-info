@@ -1,0 +1,20 @@
+{
+  "name": "redis-client-info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "bin": {
+    "redis-client": "bin/cmd.js"
+  }
+  "license": "ISC",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "color-log": "git+https://github.com/jkom-cloud/color-log.git",
+    "redis": "^2.6.3"
+  }
+}
